@@ -106,6 +106,8 @@ class Game extends React.Component {
     }
 
     return (
+      <div>
+      <div className='status'>{status}</div>
       <div className="game">
         <div className="game-board">
           <Board 
@@ -114,9 +116,9 @@ class Game extends React.Component {
           />
         </div>
         <div className="game-info">
-          <div className='status'>{status}</div>
           <ol>{movies}</ol>
         </div>
+      </div>
       </div>
     );
   }

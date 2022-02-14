@@ -14,7 +14,8 @@ ol, ul {
 }
 
 .status {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  text-align: center;
   color: blue;
   font-weight: 700;
 }
@@ -63,10 +64,6 @@ ol, ul {
   }
 
   .game-info {
-    margin-top: 35px;
-  }
-
-  .status {
-    text-align: center;
+    margin-top: 30px;
   }
 }
